@@ -3,7 +3,7 @@
 /**
  * _islower - check lowercase
  *
- * return: (1) success else  (0)
+ * return: (1) success else (0)
  */
 int _islower(int c)
 {
@@ -12,7 +12,7 @@ int _islower(int c)
 	r = islower(c);
 	if (r == 1)
 	{
-		return (r);
+		return (1);
 	}
 	else
 	{
