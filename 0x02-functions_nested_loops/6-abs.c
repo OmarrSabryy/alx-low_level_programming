@@ -1,6 +1,6 @@
 /**
  * _abs - get absolute value
- *@c: integer
+ *@x: integer
  * Return: the avsolute value
  */
 int _abs(int x)
