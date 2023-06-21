@@ -31,6 +31,10 @@ void jack_bauer(void)
 					}
 				}
 			}
+			else
+			{
+				return ();
+			}
 		}
 	}
 }
