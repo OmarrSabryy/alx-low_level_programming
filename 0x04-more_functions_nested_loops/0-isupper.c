@@ -1,5 +1,6 @@
 /**
  * _isupper - check uppercase
+ * @c: integer
  *
  * Return: (1) success (0) otherwise
  */
