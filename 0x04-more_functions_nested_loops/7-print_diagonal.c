@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rint_diagonal - print a diagonal
+ * print_diagonal - print a diagonal
  * @n: integer
  *
  * Return: void
@@ -9,7 +9,7 @@ void print_diagonal(int n)
 {
 	int x = 0;
 
-	if (x > 0)
+	if (n > 0)
 	{
 		while (x < n)
 		{
