@@ -1,3 +1,4 @@
+#include <string.h>
 /**
  * _strlen - get string length
  * @s: pointer to string
