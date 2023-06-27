@@ -8,8 +8,9 @@
 void rev_string(char *s)
 {
 	int l;
+	int i;
 
-	l = srtlen(s);
+	l = strlen(s);
 	for (i = 0; i < (l / 2); i++)
 	{
 		int a = s[i];
