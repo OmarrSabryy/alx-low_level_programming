@@ -9,7 +9,8 @@ char *cap_string(char *s)
 {
 	int i;
 	int j;
-	char str[] = {' ', ',', ';', '.', '!', '?', '(', ')', '{', '}', '\n'};
+	char str[] = {' ', '"', '\t', ',', ';', '.', '!', '?', '(', ')', '{'
+		, '}', '\n'};
 	int l_str = strlen(str);
 	int l = strlen(s);
 
