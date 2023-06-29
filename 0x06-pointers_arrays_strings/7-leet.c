@@ -1,4 +1,4 @@
-#include <string>
+#include <string.h>
 /**
  * leet - muzart code
  * @s: pointer to string
