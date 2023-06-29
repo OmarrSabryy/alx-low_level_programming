@@ -12,7 +12,7 @@ char *_strncpy(char *dest, char *src, int n)
 	int l_src = strlen(src);
 	int i;
 
-	for (i = 0; i < (n < l_src ? n : l_src); i++)
+	for (i = 0; i < n; i++)
 	{
 		*(dest + i) = s[i];
 	}
