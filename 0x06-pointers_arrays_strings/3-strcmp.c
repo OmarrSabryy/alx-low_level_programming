@@ -22,19 +22,6 @@ int _strcmp(char *s1, char *s2)
 	}
 	else
 	{
-		int c;
-
-		for (i = 0; i < l_s1; i++)
-		{
-			if (s1[i] > s2[i])
-			{
-				c += s1[i] - s2[i];
-			}
-			else if (s1[i] < s2[i])
-			{
-				c += s1[i] - s2[i];
-			}
-		}
-		return (c);
+		return (0);
 	}
 }
