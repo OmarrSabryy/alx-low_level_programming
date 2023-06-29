@@ -14,8 +14,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		*(dest + l_dest) = src[i];
-		l_dest++;
+		*(dest + (l_dest + i)) = src[i];
 	}
 	return (dest);
 }
