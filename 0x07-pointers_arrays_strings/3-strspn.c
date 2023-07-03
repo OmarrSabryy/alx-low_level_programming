@@ -13,15 +13,20 @@ unsigned int _strspn(char *s, char *accept)
 	int j;
 	unsigned int count;
 	int l = strlen(accept);
+	char current;
 
-	for (i = 0; *(s + i) != ' '; i++)
+	for (i = 0; i < l; i++)
 	{
-		for (j = 0; j < l; j++)
+		if (!(accept[i] == current))
 		{
-			if (*(s + i) == accept[j])
+			for (j = 0; *(s + j) != ' '; j++)
 			{
-				count++;
+				if (accept[i] == *(s + j))
+				{
+					count++;
+				}
 			}
+			current = accept[i];
 		}
 	}
 	return (count);
