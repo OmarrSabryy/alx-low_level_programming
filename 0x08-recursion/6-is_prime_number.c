@@ -16,7 +16,7 @@ int check_prime(int a, int b)
 		return (0);
 	}
 	b--;
-	check_prime(a, b);
+	return (check_prime(a, b));
 }
 /**
  * is_prime_number - check for prime
