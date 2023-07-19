@@ -1,1 +1,1 @@
-c variables
+function pointers
